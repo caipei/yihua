@@ -1,0 +1,21 @@
+jdbcUrl = jdbc:mysql://localhost/yihua?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true
+user = root
+password = 123456
+devMode = true
+
+project_name = yihua
+
+project_title = 宜华地产-管理平台
+
+path_prefix = http://localhost:8080/yihua/
+
+dataservice_prefix = http://120.27.113.95:8080/yoohoo/data/
+
+qiniu_prefix = http://7xpuki.media1.z0.glb.clouddn.com/
+
+redis.redis_addr = 120.27.113.95
+redis.redis_port = 6378
+redis.max_active = 1024
+redis.max_idle = 200
+redis.max_wait = 1000
+redis.test_on_borrow = true

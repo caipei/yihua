@@ -1,0 +1,83 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:100px;
+}
+/*头部*/
+.mid{
+	width:100%;
+	height:2.6rem;
+	background:#ae9471;
+	position:relative;
+}
+.createD{
+	width:2.8rem;
+	height:1rem;
+	line-height:.47rem;
+	position:absolute;
+	bottom:.1rem;
+	left:.3rem;
+	letter-spacing:.035rem;
+}
+.createD>p,.createD>p>a{
+	font-size:.48rem;
+	color:#EFE3D4;
+	text-transform:uppercase;
+	word-wrap:break-word;
+}
+.join{
+	width:1.3rem;
+	height:1.2rem;
+	position:absolute;
+	top:0;
+	right:.3rem;
+}
+.join>ul>li{
+	width:100%;
+	height:.4rem;
+	border:1px solid #D3C5B2;
+	border-radius:.04rem;
+	line-height:.34rem;
+	margin-top:.2rem;
+	display:flex;
+}
+.join>ul>li:nth-of-type(1){
+	background:#EFEAE3;
+}
+.join>ul>li:nth-of-type(1)>a{
+	color:#AB9679;
+}
+.join>ul>li>a{
+	font-size:.17rem;
+	color:#E7E0D7;
+	float:left;
+	margin:auto;
+}
+.join>ul>li>a>i{
+	display:inline-block;
+	margin-left:3px;
+	width:6px;
+	height:9px;
+	background:url('../images/arrowR.png');
+}
+.join>ul>li:nth-of-type(1)>a>i{
+	display:inline-block;
+	margin-left:3px;
+	width:9px;
+	height:6px;
+	background:url('../images/arrowD.png');
+}
+.main{
+	width:100%;
+	height:22.68rem;
+	position:relative;
+}
+.dream{
+	width:2.5rem;
+	height:.3rem;
+	position: absolute;
+	top:0;
+	left:0;
+}

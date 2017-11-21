@@ -1,0 +1,121 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:100px;
+}
+header{
+	width:100%;
+	height:5.49rem;
+}
+
+img{
+	width:100%;
+}
+.mid{
+	width:100%;
+	height:2.6rem;
+	background:#ae9471;
+	position:relative;
+}
+.createD{
+	width:2.6rem;
+	height:1rem;
+	line-height:.47rem;
+	position:absolute;
+	bottom:.1rem;
+	left:.3rem;
+}
+.createD p>a,.createD p{
+	font-size:.48rem;
+	color:#EFE3D4;
+	text-transform:uppercase;
+	word-wrap:break-word;
+}
+.join{
+	width:1.3rem;
+	height:1.2rem;
+	position:absolute;
+	top:0;
+	right:.3rem;
+}
+.join>ul>li{
+	width:100%;
+	height:.4rem;
+	border:1px solid #D3C5B2;
+	border-radius:.04rem;
+	line-height:.34rem;
+	margin-top:.2rem;
+	display:flex;
+}
+.join>ul>li>a>i{
+	display:inline-block;
+	margin-left:3px;
+	width:6px;
+	height:9px;
+	background:url('../images/arrowR.png');
+}
+.join>ul>li>a{
+	font-size:.17rem;
+	color:#E7E0D7;
+	float:left;
+	margin:auto;
+}
+/*底部*/
+footer{
+	width:100%;
+	height:7.95rem;
+	background:url('../images/footer-bg.png');
+	background-size:cover;
+}
+.embody{
+	width:90%;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+}
+footer h1{
+	font-size:.4rem;
+	color:#EFEFEF;
+}
+footer h1>a{
+	font-size:.4rem;
+	color:#EFEFEF;
+	letter-spacing:.05rem;
+}
+.writing{
+	height:7rem;
+	position:absolute;
+	bottom:.25rem;
+	right:0;
+}
+
+
+@media screen and (max-width:320px){
+	.writing{
+		width:100%;
+	}
+}
+@media screen and (min-width:321px) and (max-width:360px){
+	.writing{
+		width:80%;
+	}
+}
+@media screen and (min-width:361px) and (max-width:375px){
+	.writing{
+		width:75%;
+	}
+}
+@media screen and (min-width:376px){
+	.writing{width:60%;}
+}
+.writing>h5{
+	font-size:.24rem;
+	color:#AE9471;
+}
+.writing>p{
+	font-size:.15rem;
+	color:#A0A0A0;
+	margin-top:.2rem;
+}

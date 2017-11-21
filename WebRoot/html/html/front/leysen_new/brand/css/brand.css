@@ -1,0 +1,112 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:100px;
+}
+#main{
+	width:100%;
+	height:100%;
+	background:#fff;
+	background-size:cover;
+	overflow:hidden;
+}
+.con{
+	width:5.5rem;
+	height:9.5rem;
+	margin: .3rem auto;
+	position:relative;
+}
+.rect{
+	width:100%;
+	height:100%;
+	position:relative;
+	z-index:1;
+}
+.rect>div{
+	width:3.45rem;
+	height:3.3rem;
+	position:absolute;
+}
+.rect-1{
+	background:#9BBBE7;
+	top:0;
+	right:.15rem;
+}
+.rect-2{
+	background:#FFDCCB;
+	top:3.1rem;
+	left:.15rem;
+
+}
+.rect-3{
+	background: #AAD3C0;
+	bottom:0;
+	right:.15rem;
+}
+.pic{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	z-index:2;
+}
+.pic>ul>li{
+	margin-top:.22rem;
+}
+.pic-1{
+	width:100%;
+	height:2.85rem;
+	line-height:2.7rem;
+	background-size:4.23rem 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.pic-a{
+	background:url('../images/brand1.jpg');
+
+	background-size:4.5rem 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.pic-b{
+	background:url('../images/brand2.jpg');
+
+	background-size:4.5rem 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.pic-c{
+	background:url('../images/brand3.jpg');
+
+	background-size:4.5rem 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.pic-1>p{
+	width:1.8rem;
+	height:.3rem;
+	font-size:.26rem;
+	color:#000;
+	font-weight:600;
+}
+.beg{
+	width:100%;
+	height:2.85rem;
+}
+.beg>p{
+	text-transform: capitalize;
+	height:.2rem;
+	font-size:.26rem;
+	color:#000;
+	font-family:'Constantia Regular';
+}
+.pic>ul>li:nth-child(2) .beg{
+	text-align:right;
+}
+.beg>span{
+	font-size:.24rem;
+	color:#000;
+	font-weight:bold;
+}

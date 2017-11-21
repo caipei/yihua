@@ -1,0 +1,147 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:100px;
+	-webkit-text-size-adjust: none
+}
+img{
+	width:100%;
+}
+/*头部*/
+.mid{
+	width:100%;
+	height:2.6rem;
+	background:#ae9471;
+	position:relative;
+}
+.createD{
+	width:2.7rem;
+	height:1rem;
+	line-height:.47rem;
+	position:absolute;
+	bottom:.1rem;
+	left:.3rem;
+}
+.createD p,.createD p>a{
+	font-size:.5rem;
+	color:#EFE3D4;
+	text-transform:uppercase;
+	word-wrap:break-word;
+}
+.join{
+	width:1.3rem;
+	height:1.2rem;
+	position:absolute;
+	top:0;
+	right:.3rem;
+}
+.join>ul>li{
+	width:100%;
+	height:.4rem;
+	border:1px solid #D3C5B2;
+	border-radius:.04rem;
+	line-height:.34rem;
+	margin-top:.2rem;
+	display:flex;
+}
+.join>ul>li:nth-of-type(3){
+	background:#EFEAE3;
+}
+.join>ul>li:nth-of-type(3)>a{
+	color:#AB9679;
+}
+.join>ul>li>a{
+	font-size:.17rem;
+	color:#E7E0D7;
+	float:left;
+	margin:auto;
+}
+.join>ul>li>a>i{
+	display:inline-block;
+	margin-left:3px;
+	width:6px;
+	height:9px;
+	background:url('../images/arrowR.png');
+}
+.join>ul>li:nth-of-type(3)>a>i{
+	display:inline-block;
+	margin-left:3px;
+	width:9px;
+	height:6px;
+	background:url('../images/arrowD.png');
+}
+.main{
+	width:6.4rem;
+	height:10.5rem;
+	background:url('../images/join-bg.png');
+	background-size:cover;
+}
+@media screen and (max-width:320px){
+	.main{
+		height:11.5rem;
+	}
+}
+.main>.main-info>p,.main>.main-info>p>a{
+	font-size:.4rem;
+	color:#EFEFEF;
+	padding-top:.1rem;
+}
+.main>.main-info>p>a{
+	letter-spacing:.055rem;
+}
+.main-info{
+	width:91%;
+	height:100%;
+	margin:0 auto;
+}
+.interview-info{
+	width:30%;
+	height:1rem;
+	margin-top:.5rem;
+}
+.interview-info p{
+	font-size:.3rem;
+	color:#EFEFEF;
+	padding:.1rem;
+	border-left:1px solid #C09D6D;
+}
+.detail-info{
+	width:70%;
+	height:90%;
+}
+.detail-info i{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background:url('../images/1.png');
+	position-size:cover;
+}
+.detail-info h1{
+	color:#C09D6D;
+	font-size:.28rem;
+	margin-top:.46rem;
+}
+blockquote{
+	font-size:.17rem;
+	color:#9E9E9E;
+}
+.quo{
+	margin-top:.3rem;
+	margin-bottom:.4rem;
+}
+.quo>p{
+	text-align:right;
+	font-size:.17rem;
+	color:#9E9E9E;
+}
+
+.swiper-container{
+	margin-top:.2rem;
+}
+.detail-info p{
+	margin-top:.2rem;
+	font-size:.15rem;
+	color:#9E9E9E;
+}

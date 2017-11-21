@@ -1,0 +1,190 @@
+/**style**/
+
+body {
+	font-family: "Microsoft YaHei";
+}
+
+.index-page {
+	background-color: #f0f0f0;
+}
+
+.index-swiper-container {
+	width: 100%;
+	height: 200px;
+}
+
+.index-swiper-container img {
+	width: 100%;
+	height: 100%;
+}
+
+.bottom {
+	background: #F1F1F1;
+	padding: 1px 0;
+}
+
+.bottom .active .span2 {
+	color: #F3BE0C;
+}
+
+.bottom .span1 {
+	display: block;
+	text-align: center;
+	height: 25px;
+	padding: 0;
+}
+
+.bottom .span2 {
+	display: block;
+	text-align: center;
+	height: 15px;
+	padding: 0;
+	color: #000;
+	font-size: 12px;
+}
+
+.bottom .span1 img {
+	height: 25px;
+}
+
+.bar-fill {
+	padding: 0;
+}
+
+.bar-fill a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 44px;
+	background: #0894ec;
+	text-align: center;
+	color: #fff;
+}
+
+.absolute_img_div {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.absolute_img_div img {
+	max-width: 100%;
+}
+
+@media (min-width: 481px) {
+	.size6-05 {
+		font-size: 0.7rem;
+	}
+	.size6-05-05 {
+		font-size: 0.75rem;
+	}
+	.size6-10 {
+		font-size: 0.8rem;
+	}
+	.size6-05-10 {
+		font-size: 0.85rem;
+	}
+	.size7-05 {
+		font-size: 0.8rem;
+	}
+	.size7-05-05 {
+		font-size: 0.85rem;
+	}
+	.size7-10 {
+		font-size: 0.9rem;
+	}
+	.size7-05-10 {
+		font-size: 0.95rem;
+	}
+	.size8-05 {
+		font-size: 0.9rem;
+	}
+	.size8-05-05 {
+		font-size: 0.95rem;
+	}
+	.size8-10 {
+		font-size: 1rem;
+	}
+	.size8-05-10 {
+		font-size: 1.05rem;
+	}
+}
+
+@media ( max-width: 480px) and (min-width: 321px) {
+	.size6-05 {
+		font-size: 0.65rem;
+	}
+	.size6-05-05 {
+		font-size: 0.7rem;
+	}
+	.size6-10 {
+		font-size: 0.7rem;
+	}
+	.size6-05-10 {
+		font-size: 0.75rem;
+	}
+	.size7-05 {
+		font-size: 0.75rem;
+	}
+	.size7-05-05 {
+		font-size: 0.8rem;
+	}
+	.size7-10 {
+		font-size: 0.8rem;
+	}
+	.size7-05-10 {
+		font-size: 0.85rem;
+	}
+	.size8-05 {
+		font-size: 0.85rem;
+	}
+	.size8-05-05 {
+		font-size: 0.9rem;
+	}
+	.size8-10 {
+		font-size: 0.9rem;
+	}
+	.size8-05-10 {
+		font-size: 0.95rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.size6-05 {
+		font-size: 0.6rem;
+	}
+	.size6-05-05 {
+		font-size: 0.65rem;
+	}
+	.size6-10 {
+		font-size: 0.6rem;
+	}
+	.size6-05-10 {
+		font-size: 0.65rem;
+	}
+	.size7-05 {
+		font-size: 0.7rem;
+	}
+	.size7-05-05 {
+		font-size: 0.75rem;
+	}
+	.size7-10 {
+		font-size: 0.7rem;
+	}
+	.size7-05-10 {
+		font-size: 0.75rem;
+	}
+	.size8-05 {
+		font-size: 0.8rem;
+	}
+	.size8-05-05 {
+		font-size: 0.85rem;
+	}
+	.size8-10 {
+		font-size: 0.8rem;
+	}
+	.size8-05-10 {
+		font-size: 0.85rem;
+	}
+}
+

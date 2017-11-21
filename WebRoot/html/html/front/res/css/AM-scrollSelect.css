@@ -1,0 +1,70 @@
+.AM-scrollSelect-box{
+	height: 100%;
+	text-align: center;
+	overflow:hidden;
+	height: 188px;
+}
+
+
+.AM-scrollSelect-box ul{
+	list-style:none;
+	padding: 0;
+	margin-top: 0px;
+}
+.AM-scrollSelect-box li{
+	/*list-style:none;*/
+	padding: 10px;
+	/*margin-top: 0px;*/
+}
+
+
+.list-title-action{
+	font-family: "微软雅黑";
+	font-weight: 500;
+	font-size: 22px;
+	/*height: 28px;*/
+	/*border-top: 1px solid #333333;*/
+	/*border-bottom: 1px solid #333333;*/
+}
+
+.list-title-2{
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 16px;
+	height: 16px;
+	color: #96979B;
+}
+
+.list-title-3{
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 13px;
+	height: 13px;
+	color: #D5D8DF;
+	
+}
+
+
+.list-title-hide{
+	/*font-family: "微软雅黑";
+	font-weight: 200;*/
+	font-size: 13px;
+	height: 13px;
+	padding: 0px;
+	font-size: 13px;
+	opacity: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,194 @@
+﻿@charset "utf-8";
+/*less模板*/
+/*主题列表*/
+#theme_list li {
+  margin-bottom: 3px;
+}
+#theme_list li:last-of-type {
+  margin-bottom: 0;
+}
+#theme_list li img {
+  width: 100%;
+  display: block;
+}
+#product_list .banner {
+  position: relative;
+}
+#product_list .banner .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+#product_list .banner .swiper-pagination-bullet {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #ffeebf;
+  background-color: transparent;
+  width: 8px;
+  height: 8px;
+}
+#product_list .banner .swiper-pagination-bullet-active {
+  background: #ffeebf;
+}
+#product_list .banner img {
+  display: block;
+  width: 100%;
+}
+#product_list .list .container {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+#product_list .list .container .box {
+  background: url("../images/product_list_bg.jpg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 279px;
+  position: relative;
+  margin-bottom: 6px;
+}
+#product_list .list .container .box a {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+#product_list .list .container .box img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+#product_list .list .container .box h2 {
+  color: #c7b383;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#product_list .list .container .w-1 {
+  width: 31%;
+}
+#product_list .list .container .w-2 {
+  width: 37%;
+}
+#product_list .list .container .w-3 {
+  width: 36%;
+}
+#product_list .list .container .w-4 {
+  width: 63%;
+}
+#product_list .list .container .w-5 {
+  width: 100%;
+}
+#product_details {
+  position: relative;
+}
+#product_details > img {
+  display: block;
+  width: 100%;
+}
+#product_details .swiper-1 {
+  position: absolute;
+  top: 61.4%;
+  width: 100%;
+  height: 300px;
+  left: 0;
+  overflow: hidden;
+}
+#product_details .swiper-1 .swiper-slide {
+  width: 31.5%;
+  background-repeat: no-repeat;
+  background-size: 36%;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#product_details .swiper-1 .swiper-pagination {
+  bottom: 0;
+}
+#product_details .swiper-1 .swiper-slide h1{
+  font-size: 25px;
+  font-family: "黑体";
+  margin-top: 230px;
+}
+.bomb-box{
+  width: 100%;height: 100%; top: 0;left: 0;position: fixed;z-index: 999;display: none;background-color: rgba(0,0,0,0.85);
+}
+.bomb-box img{
+  position: absolute;top: 0;left: 0;right: 0;bottom: 0; margin: auto;display: block;
+  max-width:100%;
+}
+
+#theme_list_nei-csfc{
+  position: relative;
+}
+#theme_list_nei-csfc .bg{
+  width: 100%;
+  display: block;
+}
+#theme_list_nei-csfc .swiper-csfc{
+  position: absolute;
+  width: 49%;
+  height: 384px;
+  overflow: hidden;
+}
+#theme_list_nei-csfc .csfc-1{
+  top: 19.8%;
+  right: 0;
+}
+#theme_list_nei-csfc .csfc-2{
+  top: 47.46%;
+  left: 0;
+  height:460px;
+}
+#theme_list_nei-csfc .csfc-2 .swiper-slide{
+  height:460px;
+}
+#theme_list_nei-csfc .csfc-3{
+  top: 72.8%;
+  right: 0;
+}
+#theme_list_nei-csfc .swiper-slide{
+  width: 255px;
+  height: 384px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}

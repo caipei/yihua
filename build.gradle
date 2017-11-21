@@ -1,0 +1,78 @@
+import org.gradle.plugins.ide.eclipse.model.Facet
+ 
+apply plugin: 'maven'
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+ 
+ 
+sourceCompatibility = 1.7   // 设置 JDK 版本
+webAppDirName = 'WebRoot'    // 设置 WebApp 根目录
+sourceSets.main.java.srcDir 'src'   // 设置 Java 源码所在目录
+ 
+ 
+// 设置 maven 库地址
+repositories {  
+    mavenCentral() // 中央库
+}
+ 
+ 
+// 设置依赖
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5' // 编译期
+    providedRuntime 'javax.servlet:jstl:1.2'    // 运行时
+	compile (
+		'org.apache.httpcomponents:httpmime:4.5.1',
+		'org.apache.httpcomponents:httpclient:4.5.1',
+		'org.slf4j:slf4j-api:1.7.13',
+		'org.slf4j:slf4j-log4j12:1.7.13',
+		
+		'log4j:log4j:1.2.17',
+		'javax.annotation:javax.annotation-api:1.2',
+		'commons-fileupload:commons-fileupload:1.3.1',
+		'commons-io:commons-io:2.4',
+		
+		'javax.validation:validation-api:1.1.0.Final',
+		
+		'com.jfinal:jfinal:2.0',
+		'com.jfinal:cos:26Dec2008',
+		
+		'com.google.code.gson:gson:2.5',
+		'joda-time:joda-time:2.9.1',
+		
+		'com.mchange:c3p0:0.9.5.2',
+		'mysql:mysql-connector-java:5.1.38',
+		
+		'org.apache.commons:commons-lang3:3.4',
+		'net.sf.ehcache:ehcache-core:2.6.11',
+		'javax.ws.rs:javax.ws.rs-api:2.0.1',
+		'com.qiniu:qiniu-java-sdk:7.0.+',
+		'com.squareup.okhttp:okhttp:2.7.1',
+		'com.squareup.okio:okio:1.6.0',
+		'com.googlecode.xmemcached:xmemcached:2.0.0',
+		'org.json:json:20151123',
+		'redis.clients:jedis:2.8.0'
+	)
+}
+ 
+ 
+// 设置 Project Facets
+eclipse {
+    wtp {
+        facet {
+            facet name: 'jst.web', type: Facet.FacetType.fixed
+            facet name: 'wst.jsdt.web', type: Facet.FacetType.fixed
+            facet name: 'jst.java', type: Facet.FacetType.fixed
+            facet name: 'jst.web', version: '3.0'
+            facet name: 'jst.java', version: '1.7'
+            facet name: 'wst.jsdt.web', version: '1.0'
+        }
+    }
+}
+
+//定义任务将下载的jar包拷贝到webroot/WEB-INF的lib文件夹下
+task copyJars(type: Copy) {
+  	from configurations.compile
+  	into "WebRoot/WEB-INF/lib"
+}
+
